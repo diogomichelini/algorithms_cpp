@@ -9,7 +9,24 @@
 using namespace std;
 
 int main(){
+    float A[20], B[20], C[20];
+    int i;
 
+    cout << "Insira os elementos da matriz A: \n";
+    for (i=0 ; i<=20 ; i++){
+        cin >> A[i];
+    }
+
+    cout << "\n\n Insira os elementos da matriz B: \n";
+    for (i=0 ; i<=20 ; i++){
+        cin >> B[i];
+    }
+
+    cout << "\n\nConfira o resultado (Matriz C): \n";
+    for (i=0 ; i<=20 ; i++){
+        C[i] = A[i]-B[i];
+        cout << "C[" << i << "] = " << C[i] << "\n";
+    }
 
     return 0;
 }
