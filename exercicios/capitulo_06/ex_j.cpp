@@ -9,7 +9,7 @@
 using namespace std;
 
 int main (){
-    int A[20], B[20], i, n=0;
+    int A[20], B[20], i, n=0, c=0;
 
     // ENTRADA
     for (i=0 ; i<20 ; i++){
@@ -18,9 +18,10 @@ int main (){
 
     // PROCESSAMENTO E SAIDA
     for (i=0 ; i<20 ; i++){
-        while (n <= A[i]){
-            B[i] = n + i;
-            n = n + i;
+        while (c <= A[i]){
+            B[i] = n + c;
+            n = B[i];   
+            c++;
         }
         cout << "B[" << i << "] = " << B[i] << "\n";
     }
