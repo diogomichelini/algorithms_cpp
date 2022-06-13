@@ -10,6 +10,29 @@
  ## Motivações
  Ao final de cada capítulo, o livro sugere uma lista de algoritmos que podem ser resolvidos para fixar o conteúdo ensinado. Entretanto, os algoritmos são ensinados e resolvidos através da linguagem Portugol/português estruturado. Com isso, **eu decidi resolvê-los em C++**, visto que é uma linguagem indicada para aprender tal assunto.
 
+ ## Conteúdos abordados nos capítulos:
+ Os códigos estão divididos em pastas de acordo com o capítulo em que cada lista de exercícios se encontra. Decidi começar a exercitar a partir do capítulo 6, visto que os anteriores abordaram assuntos que já eram de meu conhecimento. <br/>
+ Para ajudá-lo(a) a navegar sobre as pastas, aqui estão os **principais assuntos** dos capítulos:
+
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        <th>Conteúdo</th>
+    </tr>
+    <tr>
+        <td><strong>Capitulo 06<strong/></td>
+        <td>Arrays unidimensionais</td>
+    </tr>
+    <tr>
+        <td><strong>Capitulo 07<strong/></td>
+        <td>Aplicações básicas com arrays unidimensionais</td>
+    </tr>
+    <tr>
+        <td><strong>Capitulo 08<strong/></td>
+        <td>Arrays bidimensionais e multidimensionais</td>
+    </tr>
+</table>
+
  ## Executanto os códigos
  Para compilar e executar os códigos, você precisará ter instalado em sua máquina um dos seguintes programas: [Code::Blocks](https://www.codeblocks.org/) ou [Visual Studio Code](https://code.visualstudio.com/) - com as extensões "C/C++" e "C/C++ Compile Run" instaladas.
  ### Como executar?
